@@ -1,1 +1,3 @@
-Will add important DB entries (Either in screenshot form or a straight SQL file depending on my ability to export info with HeidiSQL) soon.
+Contained in the 7z file is a dump of the World database of my AzerothCore server from August of 2021. It is a single SQL file created by HeidiSQL and it's actual extracted size is approximately 301,565,983 bytes according to Windows.
+
+Do not treat it as a SQL query to be ran and patch in all the required tables and data to make the custom races work, I provide it so it can be picked apart and have actual useful/important data taken from it.
