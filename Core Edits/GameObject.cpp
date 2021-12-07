@@ -1826,11 +1826,11 @@ void GameObject::Use(Unit* user)
 
                 Player* player = user->ToPlayer();
 
-                if (player->getRace() == RACE_GOBLIN || player->getRace() == RACE_WORGEN)
+                if (player->getRace() == RACE_GOBLIN || player->getRace() == RACE_WORGEN) //Start of edits to file - benjymansy123
                 {
                     player->GetSession()->SendNotification("Goblins/Worgens can't use the BarberShop.");
                     return;
-                }
+                } //End of edits to file - benjymansy123
                 
                 // fallback, will always work
                 player->TeleportTo(GetMapId(), GetPositionX(), GetPositionY(), GetPositionZ(), GetOrientation(), TELE_TO_NOT_LEAVE_TRANSPORT | TELE_TO_NOT_LEAVE_COMBAT | TELE_TO_NOT_UNSUMMON_PET);
