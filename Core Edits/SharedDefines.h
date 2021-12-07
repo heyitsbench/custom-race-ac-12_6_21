@@ -63,7 +63,7 @@ enum Races
     RACE_TAUREN         = 6,
     RACE_GNOME          = 7,
     RACE_TROLL          = 8,
-    RACE_GOBLIN         = 9,
+    RACE_GOBLIN         = 9, //Start of edits to file - benjymansy123
     RACE_BLOODELF       = 10,
     RACE_DRAENEI        = 11,
     RACE_WORGEN         = 12
@@ -90,7 +90,7 @@ enum Races
 
 #define RACEMASK_ALLIANCE \
     ((1<<(RACE_HUMAN-1)) | (1<<(RACE_DWARF-1))   | (1<<(RACE_NIGHTELF-1)) | \
-   (1<<(RACE_GNOME-1)) | (1<<(RACE_DRAENEI-1)) | (1<<(RACE_WORGEN-1)))
+   (1<<(RACE_GNOME-1)) | (1<<(RACE_DRAENEI-1)) | (1<<(RACE_WORGEN-1))) //End of edits to file - benjymansy123
 
 #define RACEMASK_HORDE RACEMASK_ALL_PLAYABLE & ~RACEMASK_ALLIANCE
 
