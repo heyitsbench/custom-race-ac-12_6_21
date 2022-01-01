@@ -34,3 +34,5 @@ Swift Flight: https://media.discordapp.net/attachments/520029389136855069/881044
 Both races I believe had their skeleton (The model that their corpse is replaced by upon resurrecting) use the stand-in blue-white grid box as well and were missing most if not all emotes and voice lines. I felt that the level stats could be taken from Mists of Pandaria without issue since I didn't have a Cata server on hand and the human warrior I compared between MoP and WotLK were the same.
 
 The DBC files included are likely a mix of what was provided by AzerothCore (I believe an enGB client if it makes a difference) and my own enUS client, with plenty of meshing of the two if that could cause any confusion.
+
+Recent work on this project is now being released here: https://github.com/benjymansy123/mod-worgoblin
